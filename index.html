@@ -242,10 +242,10 @@
         }
         //nghe hành vi click vào button close
         modalClose.addEventListener('click', hideBuyTickets)
-        modal.addEventListener('click', hideBuyTickets)
-        modalcontainer.addEventListener('click', function (event) {
-            event.stopPropagation()
-        })
+        modal.addEventListener('click', hideBuyTickets)// nghe hành vi click ra ngoài modal
+        modalcontainer.addEventListener('click', function (event) {//
+            event.stopPropagation()// ngăn sự kiện click trên modalcontainer không lan ra ngoài
+        })//
     </script>
 </body>
 
