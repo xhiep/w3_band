@@ -1,0 +1,3 @@
+{
+    "gitlens.codeLens.recentChange.command": "gitlens.toggleFileBlame"
+}
