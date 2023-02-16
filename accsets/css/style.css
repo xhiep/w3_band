@@ -485,7 +485,11 @@ i.ti-close:hover {
     color: rgba(0, 0, 0, 0.6);
 }
 
+<<<<<<< HEAD
 @keyframes modalFadeIn {/* animation for modal */
+=======
+@keyframes modalFadeIn {
+>>>>>>> origin/master
     from {
         opacity: 0;
         transform: translateY(-140px);
