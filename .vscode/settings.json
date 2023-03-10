@@ -1,3 +1,4 @@
 {
-    "gitlens.codeLens.recentChange.command": "gitlens.toggleFileBlame"
+    "gitlens.codeLens.recentChange.command": "gitlens.toggleFileBlame",
+    "liveServer.settings.port": 5501
 }
